@@ -1,72 +1,71 @@
 # Nadine Breaty - Portfolio Website
 
-Moderní a elegantní portfolio webová stránka vytvořená s **Next.js 16**. Projekt prezentuje osobní brand Nadine Breaty s responsivním designem a interaktivními komponentami.
+A modern and elegant portfolio website designed in Figma and built with **Next.js 16**. This project showcases the personal brand of Nadine Breaty with a responsive design and interactive components.
 
-## 🌟 Vlastnosti
+## 🌟 Features
 
-- ✨ **Moderní design** - Elegantní UI s Tailwind CSS
-- 📱 **Responsivní layout** - Perfektní na všech zařízeních
-- ⚡ **High Performance** - Optimalizováno s React Compiler
-- 🎨 **Fonty** - Poppins, Roboto Mono, Dancing Script z Google Fonts
-- 🎭 **Animace** - Hladké přechody a animace s Motion library
-- 📸 **Instagram integrace** - Připojení k Instagram API
-- 🎯 **Sekce stránky**:
-  - Navbar - Navigační lišta
-  - Main - Hlavní úvodní sekce
-  - About Me - O influencerce
-  - Content - Obsah a portfolio
-  - Book - Kniha nebo čtení
-  - Contact - Kontakt
-  - Partners - Partneři
-  - Footer - Patička
+- ✨ **Modern Design** – Elegant UI with Tailwind CSS
+- 📱 **Responsive Layout** – Perfect on all devices
+- ⚡ **High Performance** – Optimized with React Compiler
+- 🎨 **Fonts** – Poppins, Roboto Mono, Dancing Script from Google Fonts
+- 🎭 **Animations** – Smooth transitions and animations with Motion library
+- 🎯 **Page Sections**:
+  - Navbar – Navigation bar
+  - Main – Hero section
+  - About Me – About the influencer
+  - Content – Portfolio and content
+  - Book – Book or reading section
+  - Contact – Contact form
+  - Partners – Partners
+  - Footer – Footer
 
-## 📋 Požadavky
+## 📋 Requirements
 
 - Node.js 18+
-- npm, yarn, pnpm nebo bun
+- npm, yarn, pnpm, or bun
 
-## 🚀 Spuštění projektu
+## 🚀 Getting Started
 
-### Vývojový server
+### Development Server
 
 ```bash
 npm run dev
-# nebo
+# or
 yarn dev
-# nebo
+# or
 pnpm dev
-# nebo
+# or
 bun dev
 ```
 
-Otevřete [http://localhost:3000](http://localhost:3000) v prohlížeči a uvidíte výsledek.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-### Produkční build
+### Production Build
 
 ```bash
 npm run build
 npm run start
 ```
 
-## 🛠️ Technologie
+## 🛠️ Technologies
 
 - **Framework**: [Next.js 16](https://nextjs.org)
 - **React**: 19.2.0
 - **Styling**: [Tailwind CSS 4](https://tailwindcss.com)
 - **Language**: TypeScript 5
 - **Icons**:
-  - [@heroicons/react](https://heroicons.com) - 2.2.0
-  - [react-icons](https://react-icons.github.io/react-icons) - 5.5.0
-- **Animace**: [Motion](https://www.motion.dev) - 12.23.24
+  - [@heroicons/react](https://heroicons.com) – 2.2.0
+  - [react-icons](https://react-icons.github.io/react-icons) – 5.5.0
+- **Animations**: [Motion](https://www.motion.dev) – 12.23.24
 - **Compiler**: React Compiler (Babel plugin)
 - **Linter**: ESLint 9
 
-## 📁 Struktura projektu
+## 📁 Project Structure
 
 ```
 src/
 ├── app/
-│   ├── components/           # React komponenty
+│   ├── components/           # React components
 │   │   ├── AboutMe.tsx
 │   │   ├── Book.tsx
 │   │   ├── Contact.tsx
@@ -77,52 +76,48 @@ src/
 │   │   └── Partners.tsx
 │   ├── hooks/               # Custom React hooks
 │   │   └── useInView.ts
-│   ├── globals.css          # Globální styly
+│   ├── globals.css          # Global styles
 │   ├── layout.tsx           # Root layout
-│   └── page.tsx             # Hlavní stránka
+│   └── page.tsx             # Main page
 public/
-├── icons/                   # SVG ikony
+├── icons/                   # SVG icons
 └── img/
-    └── partners/            # Obrázky partnerů
+    └── partners/            # Partners images
 ```
 
-## 🎨 Customizace
+## 🎨 Customization
 
-### Fonty
+### Fonts
 
-Fonty jsou konfigurované v `src/app/layout.tsx`. Aktuálně jsou používány:
+Fonts are configured in `src/app/layout.tsx`. Currently used fonts:
 
-- **Poppins** - Sans-serif font
-- **Roboto Mono** - Monospace font
-- **Dancing Script** - Dekorativní font
+- **Poppins** – Sans-serif font
+- **Roboto Mono** – Monospace font
+- **Dancing Script** – Decorative font
 
-### Barvy a styly
+## 🔧 Installation & Setup
 
-Tailwind CSS konfigurace a vlastní styly jsou v `src/app/globals.css`.
-
-## 🔧 Instalace a Setup
-
-1. Klonuj repository:
+1. Clone the repository:
 
 ```bash
 git clone <repository-url>
 cd nadinebreaty
 ```
 
-2. Nainstaluj závislosti:
+2. Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. Spusť vývojový server:
+3. Start the development server:
 
 ```bash
 npm run dev
 ```
 
-4. Otevři [http://localhost:3000](http://localhost:3000)
+4. Open [http://localhost:3000](http://localhost:3000)
 
-## 📄 Licence
+## 📄 License
 
-Projekt je soukromý. Všechna práva vyhrazena.
+This project is private. All rights reserved.
