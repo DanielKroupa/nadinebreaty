@@ -1,0 +1,13 @@
+# robots.txt for Nadine Breaty
+# Allow all crawlers to access the public site but block common private paths.
+
+User-agent: *
+Allow: /
+
+# Block Next.js internals and any API routes
+Disallow: /api/
+Disallow: /_next/
+Disallow: /node_modules/
+
+# Sitemap (replace with your production sitemap URL if different)
+Sitemap: https://nadinebreaty-9djesg3ey-danielkroupas-projects.vercel.app/sitemap.xml
