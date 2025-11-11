@@ -10,7 +10,7 @@ const Footer = () => {
         <Link href="#">GDPR</Link>
       </div>
       <div className="text-sm">
-        <p>Copyright 2025 - Kroupa Daniel</p>
+        <p>Copyright {new Date().getFullYear()} - Kroupa Daniel</p>
       </div>
     </footer>
   );

@@ -9,5 +9,5 @@ Disallow: /api/
 Disallow: /_next/
 Disallow: /node_modules/
 
-# Sitemap (replace with your production sitemap URL if different)
-Sitemap: https://nadinebreaty.vercel.app/sitemap.xml
+# Sitemap (use host-less path so deployments automatically resolve the domain)
+Sitemap: /sitemap.xml

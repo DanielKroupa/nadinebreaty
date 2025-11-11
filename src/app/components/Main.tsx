@@ -69,7 +69,7 @@ const Main = () => {
               custom={0.5}
               className="p-1 text-primary space-y-4"
             >
-              <h2 className="md:text-5xl font-bold font-dancing flex items-center gap-4 md:text-left text-center text-6xl">
+              <h1 className="md:text-5xl font-bold font-dancing flex items-center gap-4 md:text-left text-center text-6xl">
                 <motion.span
                   initial={{ opacity: 0, x: -50 }}
                   animate={{ opacity: 1, x: 0 }}
@@ -90,7 +90,7 @@ const Main = () => {
                     className="object-contain md:block hidden"
                   />
                 </motion.div>
-              </h2>
+              </h1>
               <motion.p
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
