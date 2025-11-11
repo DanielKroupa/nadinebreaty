@@ -16,7 +16,6 @@ const fadeUp: Variants = {
     y: 0,
     transition: {
       duration: 0.8,
-      // use a cubic-bezier easing array to satisfy the Easing type
       ease: [0.33, 1, 0.68, 1],
       delay: custom,
     },
@@ -108,7 +107,7 @@ const Main = () => {
               className="flex justify-center md:justify-start"
             >
               <Link
-                href="#"
+                href="https://wecreate.media/artists/nadine-breaty/"
                 className="rounded-full text-primary border-2 border-primary font-semibold bg-primary/10 font-roboto-mono px-8 py-4 md:text-xl text-lg shadow-md shadow-primary/25 hover:scale-105 transition-transform"
               >
                 Let&apos;s work together
