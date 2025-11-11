@@ -10,4 +10,4 @@ Disallow: /_next/
 Disallow: /node_modules/
 
 # Sitemap (replace with your production sitemap URL if different)
-Sitemap: https://nadinebreaty-9djesg3ey-danielkroupas-projects.vercel.app/sitemap.xml
+Sitemap: https://nadinebreaty.vercel.app/sitemap.xml
