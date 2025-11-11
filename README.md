@@ -15,8 +15,8 @@ A modern and elegant portfolio website designed in Figma and built with **Next.j
   - About Me – About the influencer
   - Content – Portfolio and content
   - Book – Book or reading section
-  - Contact – Contact form
-  - Partners – Partners
+  - Contact – Contact info
+  - Partners – Partners and collabs
   - Footer – Footer
 
 ## 📋 Requirements

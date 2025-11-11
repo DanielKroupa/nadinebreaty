@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Poppins, Roboto_Mono, Dancing_Script } from "next/font/google";
 import "./globals.css";
 
@@ -40,6 +41,7 @@ export default function RootLayout({
         className={`${poppins.variable} ${robotoMono.variable} ${dancing.variable} w-full antialiased`}
       >
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
