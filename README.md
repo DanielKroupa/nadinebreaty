@@ -1,36 +1,128 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nadine Breaty - Portfolio Website
 
-## Getting Started
+Moderní a elegantní portfolio webová stránka vytvořená s **Next.js 16**. Projekt prezentuje osobní brand Nadine Breaty s responsivním designem a interaktivními komponentami.
 
-First, run the development server:
+## 🌟 Vlastnosti
+
+- ✨ **Moderní design** - Elegantní UI s Tailwind CSS
+- 📱 **Responsivní layout** - Perfektní na všech zařízeních
+- ⚡ **High Performance** - Optimalizováno s React Compiler
+- 🎨 **Fonty** - Poppins, Roboto Mono, Dancing Script z Google Fonts
+- 🎭 **Animace** - Hladké přechody a animace s Motion library
+- 📸 **Instagram integrace** - Připojení k Instagram API
+- 🎯 **Sekce stránky**:
+  - Navbar - Navigační lišta
+  - Main - Hlavní úvodní sekce
+  - About Me - O influencerce
+  - Content - Obsah a portfolio
+  - Book - Kniha nebo čtení
+  - Contact - Kontakt
+  - Partners - Partneři
+  - Footer - Patička
+
+## 📋 Požadavky
+
+- Node.js 18+
+- npm, yarn, pnpm nebo bun
+
+## 🚀 Spuštění projektu
+
+### Vývojový server
 
 ```bash
 npm run dev
-# or
+# nebo
 yarn dev
-# or
+# nebo
 pnpm dev
-# or
+# nebo
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Otevřete [http://localhost:3000](http://localhost:3000) v prohlížeči a uvidíte výsledek.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Produkční build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+## 🛠️ Technologie
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: [Next.js 16](https://nextjs.org)
+- **React**: 19.2.0
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com)
+- **Language**: TypeScript 5
+- **Icons**:
+  - [@heroicons/react](https://heroicons.com) - 2.2.0
+  - [react-icons](https://react-icons.github.io/react-icons) - 5.5.0
+- **Animace**: [Motion](https://www.motion.dev) - 12.23.24
+- **Compiler**: React Compiler (Babel plugin)
+- **Linter**: ESLint 9
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Struktura projektu
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── app/
+│   ├── components/           # React komponenty
+│   │   ├── AboutMe.tsx
+│   │   ├── Book.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Content.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Main.tsx
+│   │   ├── Navbar.tsx
+│   │   └── Partners.tsx
+│   ├── hooks/               # Custom React hooks
+│   │   └── useInView.ts
+│   ├── globals.css          # Globální styly
+│   ├── layout.tsx           # Root layout
+│   └── page.tsx             # Hlavní stránka
+public/
+├── icons/                   # SVG ikony
+└── img/
+    └── partners/            # Obrázky partnerů
+```
 
-## Deploy on Vercel
+## 🎨 Customizace
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Fonty
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Fonty jsou konfigurované v `src/app/layout.tsx`. Aktuálně jsou používány:
+
+- **Poppins** - Sans-serif font
+- **Roboto Mono** - Monospace font
+- **Dancing Script** - Dekorativní font
+
+### Barvy a styly
+
+Tailwind CSS konfigurace a vlastní styly jsou v `src/app/globals.css`.
+
+## 🔧 Instalace a Setup
+
+1. Klonuj repository:
+
+```bash
+git clone <repository-url>
+cd nadinebreaty
+```
+
+2. Nainstaluj závislosti:
+
+```bash
+npm install
+```
+
+3. Spusť vývojový server:
+
+```bash
+npm run dev
+```
+
+4. Otevři [http://localhost:3000](http://localhost:3000)
+
+## 📄 Licence
+
+Projekt je soukromý. Všechna práva vyhrazena.
