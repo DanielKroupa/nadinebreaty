@@ -14,38 +14,24 @@ A modern and elegant portfolio website designed in Figma and built with **Next.j
   - Main – Hero section
   - About Me – About the influencer
   - Content – Portfolio and content
-  - Book – Book or reading section
-  - Contact – Contact info
+  - Book – Buying a book
+  - Contact – Contact details
   - Partners – Partners and collabs
-  - Footer – Footer
+  - Footer – Footer of the page
 
 ## 📋 Requirements
 
 - Node.js 18+
 - npm, yarn, pnpm, or bun
 
-## 🚀 Getting Started
+## 🚀 Running the Project
 
-### Development Server
+To run the project in your local environment, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
-
-### Production Build
-
-```bash
-npm run build
-npm run start
-```
+1. Clone the repository to your local machine.
+2. Run `npm install` or `yarn` in the project directory to install necessary dependencies.
+3. Run `npm run start` to open the project locally.
+4. Visit [http://localhost:3000](http://localhost:3000) via internet browser to see the result.
 
 ## 🛠️ Technologies
 
@@ -60,31 +46,6 @@ npm run start
 - **Compiler**: React Compiler (Babel plugin)
 - **Linter**: ESLint 9
 
-## 📁 Project Structure
-
-```
-src/
-├── app/
-│   ├── components/           # React components
-│   │   ├── AboutMe.tsx
-│   │   ├── Book.tsx
-│   │   ├── Contact.tsx
-│   │   ├── Content.tsx
-│   │   ├── Footer.tsx
-│   │   ├── Main.tsx
-│   │   ├── Navbar.tsx
-│   │   └── Partners.tsx
-│   ├── hooks/               # Custom React hooks
-│   │   └── useInView.ts
-│   ├── globals.css          # Global styles
-│   ├── layout.tsx           # Root layout
-│   └── page.tsx             # Main page
-public/
-├── icons/                   # SVG icons
-└── img/
-    └── partners/            # Partners images
-```
-
 ## 🎨 Customization
 
 ### Fonts
@@ -94,29 +55,6 @@ Fonts are configured in `src/app/layout.tsx`. Currently used fonts:
 - **Poppins** – Sans-serif font
 - **Roboto Mono** – Monospace font
 - **Dancing Script** – Decorative font
-
-## 🔧 Installation & Setup
-
-1. Clone the repository:
-
-```bash
-git clone <repository-url>
-cd nadinebreaty
-```
-
-2. Install dependencies:
-
-```bash
-npm install
-```
-
-3. Start the development server:
-
-```bash
-npm run dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000)
 
 ## 📄 License
 
